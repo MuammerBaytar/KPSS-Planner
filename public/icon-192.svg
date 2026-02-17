@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#5B4FCF"/>
+      <stop offset="100%" style="stop-color:#7C6EFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="40" fill="url(#bg)"/>
+  <!-- Book -->
+  <g transform="translate(96,88)" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0,-30 C-15,-30 -40,-28 -45,-20 L-45,30 C-40,22 -15,24 0,28 C15,24 40,22 45,30 L45,-20 C40,-28 15,-30 0,-30Z"/>
+    <line x1="0" y1="-30" x2="0" y2="28"/>
+  </g>
+  <!-- Clock -->
+  <circle cx="140" cy="52" r="22" fill="#0C0C12" stroke="white" stroke-width="4"/>
+  <line x1="140" y1="52" x2="140" y2="38" stroke="white" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="140" y1="52" x2="150" y2="56" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="140" cy="52" r="2.5" fill="white"/>
+  <!-- KPSS text -->
+  <text x="96" y="155" text-anchor="middle" fill="white" font-family="Arial,sans-serif" font-weight="900" font-size="22" letter-spacing="3">KPSS</text>
+</svg>
