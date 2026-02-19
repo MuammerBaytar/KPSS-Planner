@@ -1,10 +1,11 @@
-const CACHE_NAME = 'kpss-planner-v1';
+const CACHE_NAME = 'kpss-planner-v2';
+const BASE = '/KPSS-Planner/';
 const ASSETS = [
-    '/',
-    '/index.html',
-    '/icon-192.svg',
-    '/icon-512.svg',
-    '/manifest.json',
+    BASE,
+    BASE + 'index.html',
+    BASE + 'icon-192.svg',
+    BASE + 'icon-512.svg',
+    BASE + 'manifest.json',
 ];
 
 self.addEventListener('install', (e) => {
